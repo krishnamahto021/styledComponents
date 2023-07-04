@@ -1,5 +1,6 @@
 import "./styles.css";
-import { ButtonView } from "./ButtonVariants.styled";
+import {ButtonView}  from "./ButtonVariants.styled";
+
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
       </div>
       <div>
         <h3>Filled Button</h3>
-        <ButtonView bg='red' color='white'>Filled</ButtonView>
+        <ButtonView filled bg='cyan' color='red' >Filled</ButtonView>
       </div>
     </div>
   );
